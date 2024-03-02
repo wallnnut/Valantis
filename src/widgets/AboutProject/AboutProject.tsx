@@ -34,7 +34,7 @@ export const AboutProject = () => {
 				</li>
 				<li className={cls["about-item"]}>
 					<h2>Ссылка на github</h2>
-					<AppLink to="vk.com">Ghbdtn</AppLink>
+					<AppLink to="https://github.com/wallnnut/Valantis">https://github.com/wallnnut/Valantis</AppLink>
 				</li>
 			</ul>
 			
