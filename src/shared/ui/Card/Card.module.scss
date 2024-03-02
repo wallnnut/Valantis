@@ -1,0 +1,20 @@
+.card-image {
+	width: 250px;
+	height: 180px;
+}
+
+.card {
+	width: var(--card-width);
+	height: var(--card-height);
+	background-color: var(--secondary-bg-color);
+	border-radius: var(--border-radius-M);
+}
+
+.card-inner {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	gap: 15px;
+	padding: 10px;
+}

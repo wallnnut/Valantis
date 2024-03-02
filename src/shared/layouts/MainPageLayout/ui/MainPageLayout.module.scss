@@ -1,0 +1,30 @@
+.main-layout {
+	min-height: 100vh;
+	display: grid;
+	grid-template-areas:
+		"header header header"
+		"sidebar main main"
+		"footer footer footer";
+	gap: 30px;
+	grid-template-columns: 300px 1fr 1fr;
+	grid-template-rows: 70px 1fr auto;
+}
+
+.header {
+	grid-area: header;
+}
+
+.main {
+	grid-area: main;
+	padding-right: 20px;
+	flex-grow: 1;
+}
+
+.sidebar {
+	padding-left: 15px;
+	grid-area: sidebar;
+}
+
+.footer {
+	grid-area: footer;
+}

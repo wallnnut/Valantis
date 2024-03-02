@@ -1,0 +1,10 @@
+.card-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.list-header {
+	text-align: center;
+	font-size: var(--font-size-L);
+}

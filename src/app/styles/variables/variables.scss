@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,700;1,500;1,600&display=swap');
+
+:root {
+	--heading-font-family: 'Montserrat', sans-serif;
+	--body-font-family: 'Open Sans', sans-serif;
+	--base-font-weight: 600;
+	--base-font-size: 16px;
+
+	--card-width: 300px;
+	--card-height: 380px;
+
+	--primary-bg-color: #010409;
+	--secondary-bg-color: #0d1117;
+	--action-bg-color: #238636;
+	--bg-color-1: #10000e;
+	--bg-color-2: #2f323a;
+
+	--outline-color-primary: #2b74dd;
+
+
+	--text-color-primary: #b8c9e0;
+	// --text-color-secondary: #656d77;
+	// --text-color-danger: #f84e42;
+
+	--font-size-S: 12px;
+	--font-size-M: 16px;
+	--font-size-L: 22px;
+	--font-size-XL: 26px;
+
+
+
+	--minWidth-Container: 320px;
+	--maxWidth-Container: 1140px;
+	--padding-Container: 0 15px;
+	--xl: 1200px;
+	--lg: 992px;
+	--md: 768px;
+	--xs: 576px;
+
+
+	--overlay-color: #b9e2dd7c;
+
+	--border-radius-S: 5px;
+	--border-radius-M: 10px;
+	--border-radius-L: 18px;
+	--border-radius-XL: 24px;
+
+
+
+	--modal-zIndex: 10;
+
+}

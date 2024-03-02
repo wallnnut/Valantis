@@ -1,0 +1,13 @@
+@import "./variables/variables.scss";
+@import "./reset.scss";
+
+:root {
+	font-size: var(--font-size-M);
+	font-weight: var(--base-font-weight);
+	font-family: var(--body-font-family);
+	background-color: var(--primary-bg-color);
+
+	color: var(--text-color-primary);
+	width: 100%;
+	min-height: 100%;
+}

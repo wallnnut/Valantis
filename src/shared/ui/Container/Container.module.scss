@@ -1,0 +1,20 @@
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+
+	@media (min-width: var(--xs)) {
+		max-width: 540px;
+	}
+
+	@media (min-width: var(--md)) {
+		max-width: 720px;
+	}
+
+	@media (min-width: var(--lg)) {
+		max-width: 960px;
+	}
+
+	@media (min-width: var(--xl)) {
+		max-width: var(--maxWidth-Container);
+	}
+}

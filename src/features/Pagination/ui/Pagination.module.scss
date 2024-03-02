@@ -1,0 +1,17 @@
+.pagination {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.pagination-item {
+	background-color: var(--secondary-bg-color);
+	padding: 15px;
+	border-radius: var(--border-radius-S);
+	cursor: pointer;
+}
+
+.active {
+	outline: 2px solid var(--outline-color-primary);
+}

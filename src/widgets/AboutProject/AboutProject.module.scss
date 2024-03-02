@@ -1,0 +1,40 @@
+.about-item {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 50px;
+	width: 50%;
+}
+
+.about-project {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.about-list {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	justify-content: space-around;
+
+	& h2 {
+		font-size: var(--font-size-L);
+	}
+}
+
+.page-header {
+	font-size: var(--font-size-L);
+	text-align: center;
+}
+
+.header {
+	font-size: var(--font-size-M);
+	font-weight: 800;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}

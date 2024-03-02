@@ -1,0 +1,22 @@
+.filters {
+	display: flex;
+	flex-direction: column;
+	gap: 10px
+}
+
+.filters-header {
+	text-align: center;
+	font-size: var(--font-size-M);
+}
+
+.filters-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}

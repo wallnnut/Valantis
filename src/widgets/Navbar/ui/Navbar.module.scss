@@ -1,0 +1,16 @@
+.nav-bar {
+	font-size: var(--font-size-L);
+	background-color: var(--bg-color-1);
+	padding-left: 50px;
+}
+
+.nav-img {
+	width: 80px;
+	height: 80px;
+}
+
+.nav-bar__list {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
